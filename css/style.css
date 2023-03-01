@@ -1,0 +1,50 @@
+:root{
+
+}
+
+/* utility */
+
+.debug{
+    border: 1px solid red;
+}
+
+
+/* container */
+
+
+header{
+    height: 60px;
+}
+
+
+.wrapper{
+    margin-top: 60px;
+    overflow-y: hidden;
+    height: calc(100vh - 60px);
+
+}
+
+#side-bar{
+    height: 100%;
+    width: 180px;
+    flex-shrink: 0;
+    /* background-color: ; */
+}
+
+
+
+main{
+    flex-grow: 1;
+    height: 100%;
+    overflow-y: auto;
+
+}
+
+
+/* responsive */
+
+@media screen and (max-width:992px){
+    #side-bar{
+        width: 70px;
+    }
+}

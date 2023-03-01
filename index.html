@@ -10,22 +10,27 @@
     <title>Document</title>
 </head>
 <body class="bg-body-tertiary">
-    <header id="header" class="debug d-flex align-items-center fixed-top ">
-        <nav class="nav-bar debug d-flex justify-content-between bg-white">
-            <div class="logo-box debug">
-                <a class="pl-4 mb-2" href="">
+    <header id="header" class="d-flex align-items-center fixed-top ">
+        <nav class="nav-bar d-flex justify-content-between bg-white">
+            <div class="logo-box d-flex justify-content-around align-items-center">
+                <a href="">
                     <img class="logo-mob" src="./img/mobile-logo.png" alt="boolean logo">
                 </a>
                 <a href="">
                     <img class="logo-full" src="./img/logo.svg" alt="boolean logo">
                 </a>
             </div>
-            <div class="search-bar mt-1 d-flex debug">
+            <div class="search-bar mt-1 d-flex">
                 <a href="#"><i class="fa-solid fa-magnifying-glass ps-2 pt-3 pe-2 fs-5 text-black"></i></a>
                 <p class="fs-5 pt-2 text-secondary">Prova a cercare: Lezioni di Laravel</p>
             </div>
-            <div class="nav-opt d-flex justify-content-center pt-2 ps-4 fs-3 debug">
-                <a href="#"><i class="fa-solid fa-bell text-warning"></i></a>
+            <div class="nav-opt d-flex align-items-center justify-content-center fs-3">
+                <div class="nav-opt-lg">
+                    <a href=""><i class="fa-solid fa-list px-2 text-secondary"></i></a>
+                    <a href=""><i class="fa-solid fa-circle-question px-2 text-secondary"></i></a>
+                    <a href=""><i class="fa-solid fa-ellipsis-vertical px-2 text-secondary"></i></a>
+                </div>
+                <a href="#"><i class="fa-solid fa-bell text-warning fs-4 ps-2"></i></a>
                 
             </div>
         </nav>

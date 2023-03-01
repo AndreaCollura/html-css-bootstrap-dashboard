@@ -30,7 +30,9 @@ header{
     height: 100%;
     width: 80px;
     flex-shrink: 0;
-    /* background-color: ; */
+    background-color: #051e34;
+    background-image: url(../img/sidebar-bg.png);
+    color: white;
 }
 
 

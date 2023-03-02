@@ -174,9 +174,11 @@
                             </div>
                             
                         </div>
-                        <div class="order-md-1 col-12 col-md-4 py-4">
-                            <p class="fs-3 d-inline">Boolean</p>
-                            <span class="badge rounded-pill bg-info bg-gradient">Piano blaze</span>
+                        <div class="order-md-1 col-12 col-md-4 py-2">
+                            <div>
+                                <p class="fs-3 d-inline">Boolean</p>
+                                <span class="badge rounded-pill bg-info bg-gradient">Piano blaze</span>
+                            </div>    
                             <span class="badge rounded-pill bg-info bg-gradient">3 app</span>
                             <span ><i class="fa-solid fa-angles-right"></i></span>
                             <span class="badge rounded-pill bg-info bg-gradient d-md-none">+</span>
@@ -184,9 +186,12 @@
                             <span class="badge rounded-pill bg-info bg-gradient d-none d-md-inline-block">Boolean web app</span>
                             <span class="badge rounded-pill bg-info bg-gradient d-none d-md-inline-block">Boolean blog app</span>
                         </div>
-                        <div class="order-md-2 col-12 col-md-4 py-4">
-                            <p>Studenti online negli ultimi 30 minuti</p>
-                            <h2>125</h2>
+                        <div class="order-md-2 col-12 col-md-4 py-2 py-md-3 d-md-flex justify-content-md-end">
+                            <div>
+                                <p>Studenti online negli ultimi 30 minuti</p>
+                                <h2>125</h2>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -200,129 +205,142 @@
                                     <div class="card-header">
                                         <h2 class="fs-2 fw-semibold">Prossime classi</h2>
                                     </div>
-                                    <table class="table table-hover">
-                                        <thead>
-                                            <tr>
-                                                <th scope="col">Nome</th>
-                                                <th scope="col">Stato</th>
-                                                <th scope="col">Azioni</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Mark</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Jacob</td>
-                                                <td>Thornton</td>
-                                                <td>@fat</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Larry the Bird</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Larry the Bird</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Larry the Bird</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Larry the Bird</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Larry the Bird</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Larry the Bird</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                    <div class="card-body">
+                                        <table class="table table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th class="w-50" scope="col">Nome</th>
+                                                    <th class="d-none d-md-table-cell" scope="col">Data inizio</th>
+                                                    <th class="d-none d-md-table-cell text-uppercase " scope="col">roi</th>
+                                                    <th class="text-center" scope="col">Stato</th>
+                                                    <th class="text-center" scope="col">Azioni</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="w-50">
+                                                        <img class="rounded-circle mx-2" src="./img/class-avatar.jpg" alt="">
+                                                        <span>Classe 75</span>
+                                                    </td>
+                                                    <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell">20%</td>
+                                                    <td class="text-center"><span class="text-center badge text-bg-success">Done</span></td>
+                                                    <td class="text-center">
+                                                        <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                                                        <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="w-50">
+                                                        <img class="rounded-circle mx-2" src="./img/class-avatar.jpg" alt="">
+                                                        <span>Classe 76</span>
+                                                    </td>
+                                                    <td class="d-none d-md-table-cell">16 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell">20%</td>
+                                                    <td class="text-center"><span class="badge text-bg-success">Done</span></td>
+                                                    <td>@mdo</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="w-50">
+                                                        <img class="rounded-circle mx-2" src="./img/class-avatar.jpg" alt="">
+                                                        <span>Classe 77</span>
+                                                    </td>
+                                                    <td class="d-none d-md-table-cell">17 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell">20%</td>
+                                                    <td class="text-center"><span class=" badge text-bg-warning text-white">process</span></td>
+                                                    <td>@mdo</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="w-50">
+                                                        <img class="rounded-circle mx-2" src="./img/class-avatar.jpg" alt="">
+                                                        <span>Classe 78</span>
+                                                    </td>
+                                                    <td class="d-none d-md-table-cell">18 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell">20%</td>
+                                                    <td class="text-center"><span class="badge text-bg-success">Done</span></td>
+                                                    <td>@mdo</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="w-50">
+                                                        <img class="rounded-circle mx-2" src="./img/class-avatar.jpg" alt="">
+                                                        <span>Classe 79</span>
+                                                    </td>
+                                                    <td class="d-none d-md-table-cell">19 Feb 2021</td>
+                                                    <td class="d-none d-md-inline-block">20%</td>
+                                                    <td class="text-center"><span class="badge text-bg-danger">failed</span></td>
+                                                    <td>@mdo</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="w-50">
+                                                        <img class="rounded-circle mx-2" src="./img/class-avatar.jpg" alt="">
+                                                        <span>Classe 80</span>
+                                                    </td>
+                                                    <td class="d-none d-md-table-cell">20 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell">20%</td>
+                                                    <td class="text-center"><span class="badge text-bg-success">Done</span></td>
+                                                    <td>@mdo</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="w-50">
+                                                        <img class="rounded-circle mx-2" src="./img/class-avatar.jpg" alt="">
+                                                        <span>Classe 81</span>
+                                                    </td>
+                                                    <td class="d-none d-md-table-cell">21 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell">20%</td>
+                                                    <td class="text-center"><span class="badge text-bg-danger">failed</span></td>
+                                                    <td>@mdo</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="w-50">
+                                                        <img class="rounded-circle mx-2" src="./img/class-avatar.jpg" alt="">
+                                                        <span>Classe 82</span>
+                                                    </td>
+                                                    <td class="d-none d-md-table-cell">22 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell">20%</td>
+                                                    <td class="text-center"><span class="badge text-bg-success">Done</span></td>
+                                                    <td>@mdo</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
                                 <div class="card">
                                     <div class="card-header">
                                         <h2 class="text-uppercase fs-3 fw-semibold">f.a.q.</h2>
                                     </div>
-                                    <div class="accordion" id="accordionExample">
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="headingOne">
-                                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                                    data-bs-target="#collapseOne" aria-expanded="true"
-                                                    aria-controls="collapseOne">
-                                                    Come aggiungere un nuovo studente?
+                                    <div class="card-body">
+                                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                                            <div class="accordion-item">
+                                              <h2 class="accordion-header" id="flush-headingOne">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                  Come aggiungere un nuovo studente?
                                                 </button>
-                                            </h2>
-                                            <div id="collapseOne" class="accordion-collapse collapse"
-                                                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                                <div class="accordion-body">
-                                                    <strong>This is the first item's accordion body.</strong> It is
-                                                    shown by default, until the collapse plugin adds the appropriate
-                                                    classes that we use to style each element. These classes control the
-                                                    overall appearance, as well as the showing and hiding via CSS
-                                                    transitions. You can modify any of this with custom CSS or
-                                                    overriding our default variables. It's also worth noting that just
-                                                    about any HTML can go within the <code>.accordion-body</code>,
-                                                    though the transition does limit overflow.
-                                                </div>
+                                              </h2>
+                                              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                              </div>
                                             </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="headingTwo">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                    aria-expanded="false" aria-controls="collapseTwo">
-                                                    Come posso accedere alle informazioni del mio account?
+                                            <div class="accordion-item">
+                                              <h2 class="accordion-header" id="flush-headingTwo">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                  Come posso accedere alle informazioni del mio account?
                                                 </button>
-                                            </h2>
-                                            <div id="collapseTwo" class="accordion-collapse collapse"
-                                                aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                                <div class="accordion-body">
-                                                    <strong>This is the second item's accordion body.</strong> It is
-                                                    hidden by default, until the collapse plugin adds the appropriate
-                                                    classes that we use to style each element. These classes control the
-                                                    overall appearance, as well as the showing and hiding via CSS
-                                                    transitions. You can modify any of this with custom CSS or
-                                                    overriding our default variables. It's also worth noting that just
-                                                    about any HTML can go within the <code>.accordion-body</code>,
-                                                    though the transition does limit overflow.
-                                                </div>
+                                              </h2>
+                                              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                              </div>
                                             </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="headingThree">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                                    aria-expanded="false" aria-controls="collapseThree">
-                                                    Posso usare questa dashboard da mobile?
+                                            <div class="accordion-item">
+                                              <h2 class="accordion-header" id="flush-headingThree">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                  Posso usare questa dashboard da mobile?
                                                 </button>
-                                            </h2>
-                                            <div id="collapseThree" class="accordion-collapse collapse"
-                                                aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                                <div class="accordion-body">
-                                                    <strong>This is the third item's accordion body.</strong> It is
-                                                    hidden by default, until the collapse plugin adds the appropriate
-                                                    classes that we use to style each element. These classes control the
-                                                    overall appearance, as well as the showing and hiding via CSS
-                                                    transitions. You can modify any of this with custom CSS or
-                                                    overriding our default variables. It's also worth noting that just
-                                                    about any HTML can go within the <code>.accordion-body</code>,
-                                                    though the transition does limit overflow.
-                                                </div>
+                                              </h2>
+                                              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                              </div>
                                             </div>
-                                        </div>
+                                          </div>
                                     </div>
                                 </div>
                             </div>

@@ -97,6 +97,11 @@ main{
     
 }
 
+#main-content .card-body td img{
+    width: 30px;
+   }
+
+
 
 .side-box{
     height: 100%;
@@ -155,7 +160,7 @@ main{
         display: none;
     }
 
-
+   
     
 
     .nav-opt-lg{

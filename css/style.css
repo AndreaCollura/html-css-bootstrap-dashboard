@@ -116,6 +116,14 @@ main{
 }
 
 
+#main-content table tr th:first-child,
+#main-content table tr td:first-child{
+    width: auto;
+}
+
+
+
+
 /* responsive */
 
 
@@ -123,6 +131,11 @@ main{
     .offcan-width{
         width: 50vw!important;
     }
+
+    #main-content table tr th:first-child,
+    #main-content table tr td:first-child{
+    width: 50%;
+}
 }
 
 @media screen and (min-width:992px){

@@ -10,6 +10,15 @@
     border: 1px solid red;
 }
 
+li{
+    list-style: none;
+    
+}
+
+.wrapper a{
+    text-decoration: none;
+}
+
 
 /* container */
 
@@ -28,7 +37,7 @@ header{
 
 #side-bar{
     height: 100%;
-    width: 80px;
+    width: 70px;
     flex-shrink: 0;
     background-color: #051e34;
     background-image: url(../img/sidebar-bg.png);
@@ -88,17 +97,33 @@ main{
 }
 
 
+.side-box{
+    height: 100%;
+}
+
+
 /* responsive */
 
 @media screen and (min-width:992px){
+
+    .search-bar{
+        max-width: calc(100% - 300px);
+        height: 50px;
+        background-color: var(--light-grey);
+        border-radius: 5px;
+        
+    }
+
+
     #side-bar{
-        width: 180px;
+        width: 150px;
     }
 
 
     .logo-box{
         justify-content: flex-start!important;
         padding-left: 10px;
+        max-width: 150px;
         
     }
 
@@ -119,11 +144,13 @@ main{
         font-size: 20px;
         color: var(--light-grey)!important;
         display: block;
+        
        
     }
 
     .nav-opt{
         justify-content: flex-end;
+        max-width: 150px;
     }
     
 }

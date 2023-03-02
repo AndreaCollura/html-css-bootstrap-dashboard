@@ -25,9 +25,10 @@
                     <img class="logo-full" src="./img/logo.svg" alt="boolean logo">
                 </a>
             </div>
-            <div class="search-bar mt-1 d-flex">
-                <a href="#"><i class="fa-solid fa-magnifying-glass ps-2 pt-3 pe-2 fs-5 text-black"></i></a>
-                <p class="fs-5 pt-2 text-secondary">Prova a cercare: Lezioni di Laravel</p>
+            <div class="search-bar mt-1 d-flex align-items-center">
+                <a href="#"><i class="fa-solid fa-magnifying-glass ps-2 pe-2 fs-5 text-black"></i></a>
+                <span class="text-secondary ">Prova a cercare: Lezioni di Laravel</span>
+                
             </div>
             <div class="nav-opt d-flex align-items-center justify-content-center fs-3">
                 <div class="nav-opt-lg">
@@ -42,9 +43,17 @@
     </header>
     <div class="wrapper d-flex">
         <nav id="side-bar">
-            <div class="side-box flex-column justify-content-between debug">
-                <div class="side-top debug">top</div>
-                <div class="side-bot debug">bot</div>
+            <div class="side-box d-flex flex-column justify-content-between">
+                <div class="side-top">
+                    <ul class="pt-4 ps-4">
+                        <li><a href=""><i class="text-white fa-solid fa-house pb-2"></i><span class="text-white d-none d-lg-inline ps-3">Home</span></a></li>
+                        <li><a href=""><i class="text-white fa-solid fa-chart-simple pe-1 pb-2"></i><span class="text-white d-none d-lg-inline ps-3">Stats</span></a></li>
+                        <li><a href=""><i class="text-white fa-solid fa-signal pb-2"></i><span class="text-white d-none d-lg-inline ps-3">Signals</span></a></li>
+                    </ul>
+                </div>
+                <div class="side-bot pb-4 ps-4">
+                    <a href=""><i class="text-white fa-solid fa-gear"></i><span class="text-white d-none d-lg-inline ps-3">Admin</span></a></li></a>
+                </div>
             </div>
         </nav>
         <main>

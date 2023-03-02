@@ -101,6 +101,10 @@ main{
     width: 30px;
    }
 
+ul{
+    padding-left: 0rem!important;
+}  
+
 
 
 .side-box{
@@ -121,6 +125,14 @@ main{
     width: auto;
 }
 
+#side-bar a:hover{
+    
+    background-color: var(--light-grey);
+    width: 10px;
+    
+}
+
+
 
 
 
@@ -135,7 +147,13 @@ main{
     #main-content table tr th:first-child,
     #main-content table tr td:first-child{
     width: 50%;
-}
+    }
+
+    #side-bar li:hover{
+        width: 100px;
+        background-color: var(--light-grey);
+    }
+
 }
 
 @media screen and (min-width:992px){
@@ -148,6 +166,8 @@ main{
         margin: auto 0!important;
         
     }
+
+
 
 
 
